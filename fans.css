@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+.row
+{
+  
+   display: flex;
+   justify-content: space-around;
+   padding: 30px;
+    gap: 3%;
+   /* background: linear-gradient(teal,gray); */
+   /* border-radius: 20px; */
+
+   width: 100%;
+   
+
+}
+/* card section of seiling fan */
+
+
+
+.column3{
+   
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.column3 img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.1s linear;
+
+}
+.layer:hover {
+    background: rgba(13, 105, 167, 0.699);
+}
+.layer a{
+    width: 100%;
+     font-weight: 500;
+     font-size: 25px;
+     color: #fff;
+     position: absolute;
+     transform: translatex(-50%);
+     bottom: 0;
+     left: 80%;
+   
+     transition: 0.5s linear ;
+     opacity: 0;
+ 
+     text-decoration: none;
+     /* s */
+     
+}
+.layer:hover a{
+    bottom: 49%;
+    opacity: 1;
+  
+
+}
+
+@media(max-width:700px)
+{
+    .row{
+        flex-direction: column;
+    }
+ 
+
+}

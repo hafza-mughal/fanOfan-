@@ -194,6 +194,68 @@ background-color: transparent;
 
 
 
+.icon-contanier{
+    display: flex;
+justify-content: center;
+padding-top: 50px;
+}
+.icon-contanier img{
+width: 100px;
+margin-left: 50px;
+}
+
+.centered-line hr {
+    width: 50%;
+    border: 1px solid rgb(58, 58, 58);
+    height: 0;
+    margin: 20px auto;
+}
+
+.product-contanier{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin: 0px 40px ;
+ 
+}
+.product1 {
+    position: relative;
+}
+.product1 p {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translateX(-50%);
+  font-size: 35px;
+  color: var(--text-color);
+}
+.product1 img {
+ filter: contrast(50%);
+    display: block;
+    width: 340px;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.product1 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.second-heading{
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.second-heading h2{
+    font-size: 70px;
+}
+
 
 
 
